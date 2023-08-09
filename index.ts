@@ -5,6 +5,6 @@ import worker from "./worker";
   console.log("Starting worker");
   await worker.run();
   console.log("Added job");
-  new Queue("worker").add("test", { foo: "bar" });
+  new Queue("something").add("job", {});
   console.log("Shutting down");
 })();
