@@ -1,0 +1,15 @@
+{
+    "name": "bullmq-worker-run-issue",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "npx --yes tsx index.ts"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "bullmq": "^4.7.0"
+    }
+}
